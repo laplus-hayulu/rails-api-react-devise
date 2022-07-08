@@ -17,6 +17,8 @@ gem 'rack-cors'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # Railsプロジェクトでenvファイルを使用する
+  gem 'dotenv-rails'
 end
 
 group :development do
